@@ -6,6 +6,7 @@
 	<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-database.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
+	<link rel="stylesheet" href="style.css">
 	<script>
 	  // Initialize Firebase
 	  var config = {
@@ -20,12 +21,17 @@
 	</script>
 </head>
 <body>
+	<h1>Welcome to MMP 350</h1>
+	<h2>Please sign in if you don't have an account yet.</h2>
 	<div id="auth">
 		<input type="text" id="username" placeholder="Username">
-		<input type="text" id="email" placeholder="Email">
-		<input type="password" id="password" placeholder="Password">
+		<br>
+		<input type="text" id="email" placeholder="Email"><br>
+		<input type="password" id="password" placeholder="Password"><br>
 		<button id="sign-up">Sign Up</button>
+
 		<button id="login">Log In</button>
+		<br>
 		<button id="logout">Log Out</button>
 	</div>
 	<div id="data"></div>
@@ -33,9 +39,3 @@
 	<script src="js/auth.js"></script>
 </body>
 </html>
-	
-	
-	
-	
-	
-	
