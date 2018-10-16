@@ -27,7 +27,8 @@ max-width: 960px;
   display: none;
 }
 
-@media (min-width: 401px)and(max-width:600px) {
+
+@media (min-width: 401px) and (max-width:600px) {
   #header{
     grid-column-start: 1;
     grid-column-end: 3;
