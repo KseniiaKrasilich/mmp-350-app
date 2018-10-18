@@ -1,3 +1,4 @@
+
 .container{
   margin:0 auto;
 text-align: center;
@@ -31,7 +32,7 @@ max-width: 960px;
 @media (min-width: 401px) and (max-width:600px) {
   #header{
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
     grid-row: 1;
   }
   #sidebar{
