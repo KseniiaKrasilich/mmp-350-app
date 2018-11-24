@@ -1,6 +1,6 @@
-body {
+/* body {
 	--hue: 198;
-	--sat: 38%;
+	--sat: 20%;
 	--lit: 50;
 
 	--main-lit: calc(var(--lit) * 1%);
@@ -26,4 +26,4 @@ body {
 
 .post-author {
 	color: var(--accent-two);
-}
+} */

@@ -1,90 +1,28 @@
 /* font pairing 1 */
-@import url('https://fonts.googleapis.com/css?family=Oswald:200,400,700');
+@import url('https://fonts.googleapis.com/css?family=Istok+Web:400,400i,700');
  body{
-   font-size: 16px;
-   font-family: 'Oswald';
+   font-size: 18px;
+   font-family: 'Istok Web';
  }
  .post .post-text {
- 	font-family: 'Oswald';
+ 	font-family: 'Istok Web';
  	font-size: 1.1em;
   font-weight: 400;
  }
 
  .post .post-info {
- 	font-family: 'Oswald';
+ 	font-family: 'Istok Web';
  	font-size: 0.8em;
+
  	color: gray;
  }
 
  .post .post-author {
  	color: #527A79;
-  font-weight:700;
- }
-
+  font-style: italic;
+}
  .post .post-date {
+   font-style: italic;
  	font-weight: 200;
   color: #314147;
  }
-/* font pairing 2 */
-@import url('https://fonts.googleapis.com/css?family=Fahkwang:200,300i,400,500i');
-body{
-  font-size: 16px;
-  font-family: 'Fahkwang';
-}
-.post .post-text {
- font-family: 'Fahkwang';
- font-size: 1.2em;
- font-weight: 500;
- color: #102E4C;
-}
-
-.post .post-info {
- font-family:'Fahkwang',;
- font-size: 0.7em;
-
-
-}
-
-.post .post-author {
-
- font-weight:700;
- color: #ACA2A5;
-}
-
-.post .post-date {
- font-weight: 200;
- font-style: italic;
-}
-/* font pairing 3 */
-@import url('https://fonts.googleapis.com/css?family=Abel|Oswald:200,500');
-body{
-  font-size: 16px;
-
-}
-.post .post-text {
- font-family: 'Abel', sans-serif;
- font-size: 1.2em;
- font-weight: 500;
- color: #382C38;
-}
-
-.post .post-info {
- font-family: 'Oswald', sans-serif;
- font-size: 0.7em;
-  font-weight: 200;
-
-
-}
-
-.post .post-author {
-
- font-weight:500;
- color: #654665;
-}
-
-.post .post-date {
- font-weight: 200;
- color: #654665;
- font-style: italic;
-
-}
